@@ -13,7 +13,50 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 (家宽) - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
+      "server": "45.131.66.247",
+      "server_port": 20002,
+      "uuid": "74f67dcd-4d40-4af1-b8e7-8af849bb2444",
+      "tls": {
+        "enabled": true,
+        "server_name": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+      "server": "hinet1.2yly.com",
+      "server_port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 04 (家宽) - xiaohe",
       "server": "roma2.moritech.net",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
@@ -24,7 +67,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -34,7 +77,9 @@
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 02 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇷🇴 罗马尼亚 (Romania) 04 (家宽) - xiaohe"
       ]
     },
     {
@@ -42,7 +87,9 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇷🇴 罗马尼亚 (Romania) 02 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇷🇴 罗马尼亚 (Romania) 04 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
