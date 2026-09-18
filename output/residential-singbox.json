@@ -5,15 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "80.240.18.227",
+      "server_port": 10051,
+      "uuid": "73996ef7-544c-45e7-abc0-973218c727e2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
         }
       }
     },
@@ -52,10 +61,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "7dba81fc3a0b.oylfmxz.cn"
-        }
+        "path": "/"
       }
     },
     {
@@ -63,7 +69,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
       ]
@@ -72,7 +78,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
       ],
