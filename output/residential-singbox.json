@@ -4,53 +4,32 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "162.159.38.127",
-      "server_port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - xiaohe",
-      "server": "178.83.46.216",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
-      "server": "95358662-tmm5c0-tphvvu-gacy.hk3.hyhuawei.com",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+      "server": "39c981a4-tmm5c0-u093mf-1mina.hk3.hyhuawei.com",
       "server_port": 443,
-      "password": "20f87b02-0eaa-11eb-8684-f23c913c8d2b",
+      "password": "367e233c-2f54-11ee-9ae1-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "95358662-tmm5c0-tphvvu-gacy.hk3.hyhuawei.com",
+        "server_name": "39c981a4-tmm5c0-u093mf-1mina.hk3.hyhuawei.com",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
-      "server": "964114bc-tmm5c0-tntd4s-yjq0.nw4.hyhuawei.com",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+      "server": "8f736ed1-tmm5c0-tnt75r-1k8ga.nw4.hyhuawei.com",
       "server_port": 443,
-      "password": "25b2699a-e18e-11ec-8e69-f23c91cfbbc9",
+      "password": "f860f2da-5035-11ed-bb74-f23c9164ca5d",
       "tls": {
         "enabled": true,
-        "server_name": "964114bc-tmm5c0-tntd4s-yjq0.nw4.hyhuawei.com",
+        "server_name": "8f736ed1-tmm5c0-tnt75r-1k8ga.nw4.hyhuawei.com",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
       "server": "118.167.235.241",
       "server_port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
@@ -69,6 +48,36 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - xiaohe",
+      "server": "test.keoplentuio.xyz",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 05 (家宽) - xiaohe",
+      "server": "175.41.179.37",
+      "server_port": 51262,
+      "uuid": "903fed13-8e78-4fa2-a83e-b392b289741f",
+      "tls": {
+        "enabled": true,
+        "server_name": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
+        }
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "🇸🇬 新加坡 (Singapore) 06 (家宽) - xiaohe",
       "server": "s3.huhiuh.space",
@@ -81,39 +90,53 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe",
-      "server": "sbgfgov.vip24.wogacnmnagfwgov.com",
-      "server_port": 11224,
-      "uuid": "605956ee-544d-308e-8b90-51e67c6ea8da",
-      "security": "auto",
-      "alter_id": 2
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 07 (家宽) - xiaohe",
+      "server": "69.63.221.116",
+      "server_port": 25517,
+      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
+      "tls": {
+        "enabled": true,
+        "server_name": "wzs.echo.net.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HBRETS1lYDldeEEFRGxhbVloPHhpEVl9AFwxSGQ9bSQ==",
+        "headers": {
+          "Host": "wzs.echo.net.eu.org"
+        }
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 05 (家宽) - xiaohe",
         "🇸🇬 新加坡 (Singapore) 06 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 07 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 04 (移动家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 05 (家宽) - xiaohe",
         "🇸🇬 新加坡 (Singapore) 06 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 07 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
